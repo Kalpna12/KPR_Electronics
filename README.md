@@ -28,9 +28,3 @@ If your frontend runs on a different origin, set `CLIENT_ORIGIN` in `server/.env
 - Contact form UI placeholder (currently client-side only)
 - Scroll reveal animations and reduced-motion support
 
-## Important before production
-- Product catalogue and prices are illustrative placeholders. Replace them with verified products, images, and current prices.
-- Quote requests are currently logged to the server console, not persisted. Add a database and/or transactional email provider before accepting real customer enquiries.
-- Connect the contact form to a server endpoint; add server-side validation, spam protection, and privacy/retention policies.
-- Configure exact production CORS origins, environment variables, HTTPS, monitoring, and deployment secrets.
-- Review legal pages, consent language, accessibility, and SEO metadata for your business.
